@@ -1,0 +1,28 @@
+.TodoList__item {
+  text-decoration: none;
+}
+
+.TodoList__item.completed {
+  background-color: crimson;
+  text-decoration: line-through;
+}
+
+/* Animation */
+
+.addTodo-enter {
+  opacity: 0.01;
+}
+
+.addTodo-enter.addTodo-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-in;
+}
+
+.addTodo-leave {
+  opacity: 1;
+}
+
+.addTodo-leave.addTodo-leave-active {
+  opacity: 0.01;
+  transition: opacity 300ms ease-in;
+}
